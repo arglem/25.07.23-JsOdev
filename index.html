@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student List</title>
+    <script src="assets/main.js" defer></script>
+</head>
+<body>
+    <h1>Student List</h1>
+    <ul>
+        <li>Name: </li>
+        <input type="text" class="inputName">
+      
+        <li>Surname:</li>
+        <input type="text" class="inputSurname">
+       
+        <li>Age </li>
+        <input type="number" class="inputAge">
+       
+        <li>Classroom </li>
+        <input type="text" class="inputClass">
+       
+        <li>Gender</li>
+
+            <select name="gender" class="inputGender">
+
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            </select>
+        
+    </ul>
+
+    <div class="studentList"></div>
+
+    <button onclick="addStudent()">Add</button>
+</body>
+</html>
